@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_length"
+            android:title="Length" />
+        <item
+            android:id="@+id/nav_weight"
+            android:title="Weight" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:title="Temperature" />
+        <item
+            android:id="@+id/nav_area"
+            android:title="Area" />
+        <item
+            android:id="@+id/nav_velocity"
+            android:title="Velocity" />
+        <item
+            android:id="@+id/nav_volume"
+            android:title="Volume" />
+
+    </group>
+
+</menu>
